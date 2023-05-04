@@ -1,0 +1,50 @@
+{
+  "uri": "/dashboard/{code}",
+  "method": "GET",
+  "response": {
+    "Code": "XXXXX",
+    "Title": "Title",
+    "Rows": 4,
+    "Colums": 2,
+    "Globle": false,
+    "Widgets": 
+    [
+      {
+        "Code": "XXXXX",
+        "Title":"Title",
+        "Rows": 1,
+        "Colums": 1,
+        "order": 1,
+        "type": "Chart",
+        "chart-type": "bar",
+        "parameters": [
+          {
+            "Code": "XXXX",
+            "Lable": "Time Frame",
+            "Type": "Time Picker",
+            "DefaultValue": "YY"
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "uri": "/dashboard/instance/{username}",
+  "method": "GET",
+  "response": 
+  {
+    "Widgets": 
+    [
+      {
+        "Code": "XXXXX",
+        "parameters": [
+          {
+            "key": "XXXX",
+            "value": "YYYY"
+          }
+        ]
+      }
+    ]
+  }
+}

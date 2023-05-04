@@ -1,0 +1,76 @@
+{
+  "code": "main",
+  "title": "Main",
+  "columns": 2,
+  "widgets" :
+  [
+    {
+      "code": "widget1",
+      "title": "Widget 1",
+      "columns": 2,
+      "rows": 1,
+      "order": 1,
+      "type": "chart",
+      "chartType": "bar",
+      "parameters": [
+        {
+          "code": "time",
+          "lable": "Time Frame",
+          "type": "datePicker",
+          "defaultValue": "YY"
+        }
+      ]
+    },
+    {
+      "code": "widget2",
+      "title": "Widget 2",
+      "columns": 1,
+      "rows": 1,
+      "order": 2,
+      "type": "chart",
+      "chartType": "bar",
+      "parameters": [
+        {
+          "code": "time",
+          "lable": "Time Frame",
+          "type": "datePicker",
+          "defaultValue": "YY"
+        }
+      ]
+    },
+    {
+      "code": "widget3",
+      "title": "Widget 3",
+      "columns": 1,
+      "rows": 1,
+      "order": 3,
+      "type": "chart",
+      "chartType": "bar",
+      "parameters": [
+        {
+          "code": "time",
+          "lable": "Time Frame",
+          "type": "datePicker",
+          "defaultValue": "YY"
+        }
+      ]
+    },
+    {
+      "code": "widget4",
+      "title": "Widget 4",
+      "columns": 2,
+      "rows": 1,
+      "order": 4,
+      "type": "chart",
+      "chartType": "bar",
+      "parameters": [
+        {
+          "code": "time",
+          "lable": "Time Frame",
+          "type": "datePicker",
+          "defaultValue": "YY"
+        }
+      ]
+    }
+  ]
+}
