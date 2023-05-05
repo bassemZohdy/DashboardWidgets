@@ -29,6 +29,7 @@ export class Widget {
     this.order = options.order || 1;
     this.type = options.type || 1;
     this.order = options.order || 1;
+    this.chartType = options.chartType || ChartType.bar;
     this.parameters = options.parameters || [];
   }
 }
